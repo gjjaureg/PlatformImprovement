@@ -2,7 +2,7 @@ class Load extends Phaser.Scene {
     constructor() {
         super("loadScene");
     }
-
+       
     preload() {
         this.load.setPath("./assets/");
 
@@ -67,3 +67,4 @@ class Load extends Phaser.Scene {
     update() {
     }
 }
+//hi
